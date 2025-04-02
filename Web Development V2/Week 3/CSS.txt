@@ -1,0 +1,53 @@
+CSS - Cascading Style Sheets
+
+CSS Rules
+1. Selector
+2. Declaration block {}
+
+p {
+    property : value;
+    color : blue;
+}
+
+Selectors
+1. Universal Selector (*) Targets all elements
+* {
+    ... style goes here
+}
+
+2. Element Selector Targets specific elements
+p{
+    color : blue;
+    font-size : 16px;
+}
+form {
+
+}
+h1 {
+
+}
+
+3. Class Selector - Targets elements in a specific class attribute (.)
+<h3 class="highlight">Title</h3>
+<p class="highlight">Test paragraph</p>
+
+.highlight {
+    color : red;
+}
+
+4. ID Selector - Targets one specific element (#)
+<table id="tbl_one"></table>
+
+#tbl_one {
+
+}
+
+5. Group Selector - Targets a group of elements
+h1, h2, h3, h4, h5, h6, p {
+
+}
+
+6. Descendant Selector - Targets elements inside another element
+div p {
+    
+}

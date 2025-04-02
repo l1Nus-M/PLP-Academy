@@ -1,0 +1,20 @@
+#w3 {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer{
+    color: burlywood;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    font-family: fantasy;
+    background-image: url('../images/panam.png'); /* location of image */
+    background-repeat: no-repeat; /* prevent image from repeating */
+    background-size: cover; /* scales image to cover entire element (body) */
+    background-position: center; /* center the image */
+    background-attachment: fixed; /* prevent image from scrolling */
+}
