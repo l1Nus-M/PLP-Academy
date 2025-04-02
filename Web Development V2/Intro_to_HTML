@@ -1,0 +1,17 @@
+Elements => tags, attributes, and content.
+
+Tags - define elements
+
+Opening tag: <tagname>
+
+Closing tag: </tagname>
+
+Paragraph tag
+<p>....CONTENT...</p>
+
+Unusual tags/Void elements
+<img> - Self-closing or void elements Embed images in your web page 
+
+attributes - Provide info about elements. Define xtics of elements
+eg source attribute
+<img src=""
